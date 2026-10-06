@@ -49,7 +49,3 @@ python scripts/data_preprocessing.py --input_dir /path/to/raw/images --output da
 # Step 2: Execute patient-wise splitting into train, validation, and test sets (Block B)
 python scripts/patient_split.py --meta_file data/meta.csv --output_dir data/splits/
 
-5. Processed Dataset Download Link
-If you wish to use our pre-processed dataset splits directly without running the preprocessing scripts from scratch, you can download the processed CSV files and metadata via the following link:
-
-Processed Dataset Link: https://www.kaggle.com/datasets/khanfashee/nih-chest-x-ray-14-224x224-resized
