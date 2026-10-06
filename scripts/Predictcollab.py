@@ -5,7 +5,7 @@ import pandas as pd
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from torchvision import models 
+from torchvision import models
 from sklearn.metrics import roc_auc_score
 from tqdm.auto import tqdm
 from google.colab import drive
